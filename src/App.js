@@ -1,17 +1,22 @@
-import logo from './assets/logo.png';
+// import logo from './assets/logo.png';
 import bodyCover from './assets/body-cover.jpeg'
 import profilePic from './assets/profile-pic.jpeg'
 import './App.css';
-
+import Navebar from './Navebar';
+// import { BrowserRouter as Router } from 'react-router-dom';
+ 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p className={"App-headerButtonText"}>
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            <Navebar/>
+          {/* <p className={"App-headerButtonText"}>
               About
-          </p>
+          </p> */}
       </header>
+
+      
         <div className="App-body">
             <div className={"App-image-container"}>
                 <img src={bodyCover} className="App-bodyCover" alt="logo" />
