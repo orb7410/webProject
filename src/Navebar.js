@@ -34,7 +34,10 @@ const Navbar = () => {
                     </ul>
                 </div>
             </nav>
+            <div id="outlet-container">
             <Outlet/>
+            </div>
+
         </>
     )
 }

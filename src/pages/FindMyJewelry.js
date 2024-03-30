@@ -1,8 +1,10 @@
 import React from 'react';
-
+import JewelryBox from '../JewelryBox';
 const FindMyJewelry = () => {
     return ( 
-        <h1>Find My Jewelry</h1>
+        <>
+            <JewelryBox/>
+        </>
         );
 }
 export default FindMyJewelry;

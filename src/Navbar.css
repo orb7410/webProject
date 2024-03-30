@@ -53,3 +53,7 @@ nav{
   color: black; /* Changed the text color to black for better visibility */
   padding: 10px 15px;
 }
+
+#outlet-container {
+  margin-top: 140px;
+}
