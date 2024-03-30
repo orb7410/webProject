@@ -1,8 +1,14 @@
-
+import earring from './assets/earring.jpeg'
+import './JewelryBox.css';
 
 const JewelryBox = () => {
     return(
-        <h1> JewelryBox </h1>
+        <div class="product-box-container">
+            <img src={earring} className="product-img" />
+            <p className="product-text"> JewelryBox </p>
+
+        </div>
+        
     );
 
 

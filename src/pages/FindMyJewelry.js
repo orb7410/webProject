@@ -4,6 +4,13 @@ const FindMyJewelry = () => {
     return ( 
         <>
             <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
         </>
         );
 }
