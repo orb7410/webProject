@@ -13,6 +13,16 @@ const FindMyJewelry = () => {
             <JewelryBox/>
             <JewelryBox/>
             <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
+            <JewelryBox/>
         </div>
         );
 }
