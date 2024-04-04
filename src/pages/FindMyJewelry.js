@@ -1,8 +1,10 @@
 import React from 'react';
 import JewelryBox from '../JewelryBox';
+import './FindMyJewelry.css';
+
 const FindMyJewelry = () => {
     return ( 
-        <>
+        <div id= "Jewelries">
             <JewelryBox/>
             <JewelryBox/>
             <JewelryBox/>
@@ -11,7 +13,7 @@ const FindMyJewelry = () => {
             <JewelryBox/>
             <JewelryBox/>
             <JewelryBox/>
-        </>
+        </div>
         );
 }
 export default FindMyJewelry;

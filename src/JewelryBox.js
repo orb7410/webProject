@@ -4,7 +4,7 @@ import './JewelryBox.css';
 const JewelryBox = () => {
     return(
         <div class="product-box-container">
-            <img src={earring} className="product-img" />
+            <img src={earring} className="product-img" alt="Jewelry"/>
             <p className="product-text"> JewelryBox </p>
 
         </div>

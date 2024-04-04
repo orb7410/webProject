@@ -1,0 +1,8 @@
+
+#Jewelries {
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+    flex-flow: row wrap;
+
+}
