@@ -1,7 +1,7 @@
 
 #Jewelries {
     display: flex;
-    padding: 5px;
+    padding: 20px;
     gap: 20px;
     flex-flow: row wrap;
 
