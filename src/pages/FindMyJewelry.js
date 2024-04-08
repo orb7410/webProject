@@ -1,6 +1,7 @@
 import React from 'react';
 import JewelryBox from '../JewelryBox';
 import './FindMyJewelry.css';
+import earring from '../assets/earring.jpeg'
 
 const data = [
     {
@@ -15,7 +16,7 @@ const data = [
     },
     {
         id: 3,
-        imgSrc: './assets/earring.jpeg',
+        imgSrc: './src/assets/earring.jpeg',
         txt: "rose gold earrings"
     }
 ]
@@ -23,7 +24,9 @@ const data = [
 const FindMyJewelry = () => {
     return ( 
         <div id= "Jewelries">
-            <JewelryBox/>
+             {data.map(item => ( 
+            <JewelryBox key={item.id} id={item.id} imgSrc={item.imgSrc} txt={item.txt} />
+            ))}
         </div>
         );
 }
