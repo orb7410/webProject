@@ -6,17 +6,17 @@ import earring from '../assets/earring.jpeg'
 const data = [
     {
         id: 1,
-        imgSrc: './assets/earring.jpeg',
+        imgSrc: 'https://www.lovisa.sg/cdn/shop/products/51424909_2_20078c52-58ca-48b0-b9a8-3dd25b140a67_600x.jpg?v=1702246927',
         txt: "silver earrings"
     },
     {
         id: 2,
-        imgSrc: './assets/earring.jpeg',
+        imgSrc: 'https://static.malabargoldanddiamonds.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/e/g/egdsno102_c.jpg',
         txt: "gold earrings"
     },
     {
         id: 3,
-        imgSrc: './src/assets/earring.jpeg',
+        imgSrc: 'https://www.orra.co.in/media/catalog/product/cache/a062e776095ada03f265202079309f18/o/e/oer22102_1_jrysnutcof2uu1jd.jpg',
         txt: "rose gold earrings"
     }
 ]
