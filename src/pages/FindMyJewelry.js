@@ -6,7 +6,7 @@ import earring from '../assets/earring.jpeg'
 const data = [
     {
         id: 1,
-        imgSrc: 'https://www.lovisa.sg/cdn/shop/products/51424909_2_20078c52-58ca-48b0-b9a8-3dd25b140a67_600x.jpg?v=1702246927',
+        imgSrc: 'https://static.malabargoldanddiamonds.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/e/g/egdsno102_c.jpg',
         txt: "silver earrings"
     },
     {

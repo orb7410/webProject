@@ -6,7 +6,7 @@ const JewelryBox = ({ id, imgSrc, txt }) => {
         <div className="product-box-container">
             <img src={imgSrc} className="product-img" alt="Jewelry" />
             <p className="product-text">{txt}</p>
-            <p>ID: {id}</p>
+            {/* <p>ID: {id}</p> */}
         </div>
     );
 }
