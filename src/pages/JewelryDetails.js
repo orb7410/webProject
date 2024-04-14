@@ -1,7 +1,12 @@
 import React from 'react';
-
+import {useParams} from "react-router-dom";
 
 const JewelryDetails = () => {
-    return (<h1>Jewlery details</h1>)
+    const {id} = useParams()
+    return (
+    <div>
+        <h1>Jewlery details {id}</h1>
+    </div>
+    );
 }
 export default JewelryDetails;

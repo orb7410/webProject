@@ -15,7 +15,7 @@ function App() {
             <Route path="/" element={<Navebar />} >
                 <Route index element={<Home />} />
                 <Route path="find-jewelry" element={<FindMyJewelry />} />
-                <Route path="jewelry-details" element={<JewelryDetails />} />
+                <Route path="jewelry-details/:id" element={<JewelryDetails />} />
             </Route>
         </Routes>
     </Router>
