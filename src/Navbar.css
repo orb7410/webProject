@@ -1,0 +1,59 @@
+nav{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  background-color: white;
+  border-bottom: black 4px solid;
+  height: 140px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: white;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  flex-grow: 0.5; /* Allow the logo to take up remaining space */
+}
+
+.App-logo {
+  height: 120px; /* Adjust the height of the logo as needed */
+  width: auto; /* Ensure the width adjusts proportionally */
+}
+
+#navbar {
+  display: flex;
+  position: center;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  height: 100%; /* Ensure the container takes up the full height */
+}
+
+#navbar ul { /* menue to be in a line*/
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar li {
+  margin-left: 40px; /* space between menu items */
+  font-size: 18px; /* Adjust the font size of the menu items */
+  font-style: oblique;
+}
+
+#navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none; /*without a line under the menue leter*/
+  color: black; /* Changed the text color to black for better visibility */
+  padding: 10px 15px;
+}
+
+#outlet-container {
+  margin-top: 140px;
+}
