@@ -4,6 +4,12 @@ import './Navbar.css';
 import { Link, Outlet} from 'react-router-dom';
 
 const Navbar = () => {
+    const clickAboutMe = () => {
+        const element = document.getElementById('About-me');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+    }
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -16,8 +22,8 @@ const Navbar = () => {
                         <li class="nav-item active">
                             <a class="nav-link" href="/" aria-label="Home">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/" aria-label="About">About</a>
+                        <li class="nav-item" onClick={clickAboutMe}>
+                        <Link class="nav-link" href="/" aria-label="About">About</Link>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/" aria-label="My Account">My Account</a>
