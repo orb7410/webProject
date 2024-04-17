@@ -1,7 +1,7 @@
 import React from 'react';
 import JewelryBox from '../JewelryBox';
 import './FindMyJewelry.css';
-import earring from '../assets/earring.jpeg'
+
 
 const data = [
     {

@@ -4,8 +4,8 @@ import './Navbar.css';
 import { Link, Outlet} from 'react-router-dom';
 
 const Navbar = () => {
-    const clickAboutMe = () => {
-        const element = document.getElementById('About-me');
+    const click = (elementId) => {
+        const element = document.getElementById(elementId);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
           }
@@ -22,20 +22,20 @@ const Navbar = () => {
                         <li class="nav-item active">
                             <a class="nav-link" href="/" aria-label="Home">Home</a>
                         </li>
-                        <li class="nav-item" onClick={clickAboutMe}>
+                        <li class="nav-item" onClick={ () => click("About-me")}>
                         <Link class="nav-link" href="/" aria-label="About">About</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/" aria-label="My Account">My Account</a>
+                            <Link to="/my-account" class="nav-link" href="/" aria-label="My Account">My Account</Link>
                         </li>
                         <li class="nav-item">
                             <Link to="/find-jewelry" class="nav-link" aria-label="Find my jewelry">Find my jewelry</Link>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/" aria-label="Contact">Contact</a>
+                        <li class="nav-item" onClick={ () => click("contact")}>
+                            <Link class="nav-link" href="/" aria-label="Contact">Contact</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/" aria-label="Q&A">Q&A</a>
+                            <Link to="/q-a" class="nav-link" href="/" aria-label="Q&A">Q&A</Link>
                         </li>
                     </ul>
                 </div>
