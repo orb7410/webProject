@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    margin-bottom: 0%;
+}
+
+.pane1{
+    display: flex;
+    flex: 1;
+    background-color: rgb(0, 255, 166);
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.Jewelry_detail-img {
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pane2 {
+    display: flex;
+    flex: 2;
+    background-color:rgb(255, 255, 0);
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.pane3 {
+    background-color:blue;
+    margin-top: 0%;
+}
