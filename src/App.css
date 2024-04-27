@@ -43,7 +43,7 @@
 .App-me-text {
   flex: 3;
   align-self: center;
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 50px;
 }
 

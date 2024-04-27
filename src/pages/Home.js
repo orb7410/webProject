@@ -14,9 +14,9 @@ const Home = () => {
                 <div className={"App-about"} id={"About-me"}>
                     <img src={profilePic} className="App-me-image" alt="logo" />
 
-                    <p className={"App-me-text"}>
-                        hey(:
-                    </p>
+                    <a className={"App-me-text"}>
+                    "Welcome to Avigail's Jewel Box, where every piece tells a story of elegance and grace. Handcrafted with passion and precision, our collection embodies the timeless beauty of artisanal craftsmanship.
+                    </a>
 
                 </div>
 
