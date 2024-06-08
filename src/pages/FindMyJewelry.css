@@ -1,5 +1,21 @@
 
-#Jewelries {
+#serch-container {
+    display: flex;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;    
+    background-color: pink; 
+    margin-top: 4px;
+}
+
+#serch-label {
+    margin-right: 10px;           
+}
+
+#Jewelries-items {
     display: flex;
     padding: 20px;
     gap: 20px;
