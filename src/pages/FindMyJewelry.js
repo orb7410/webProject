@@ -22,15 +22,16 @@ const FindMyJewelry = () => {
 
     return ( 
         <div id= "Jewelries">    
-        <div id="serch-container"> 
-            <label id="serch-label" htmlFor="search">search</label>
-            <input type="text" name="search" id="serch"/>
-        </div>
-        <div id= "Jewelries-items">
-        {data.map(item => ( 
-        <JewelryBox key={item.id} id={item.id} imgSrc={item.imgSrc} txt={item.txt} />
-        ))}
-        </div>
+            <div id="serch-container"> 
+                <label id="serch-label" htmlFor="search">search</label>
+                <input type="text" name="search" id="serch"/>
+            </div>
+            <div id="gap">  </div>
+            <div id= "Jewelries-items">
+            {data.map(item => ( 
+            <JewelryBox key={item.id} id={item.id} imgSrc={item.imgSrc} txt={item.txt} />
+            ))}
+            </div>
         </div>
         );
 }
