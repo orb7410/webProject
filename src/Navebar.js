@@ -32,7 +32,7 @@ const Navbar = () => {
                             <Link to="/find-jewelry" class="nav-link" aria-label="Find my jewelry">Find my jewelry</Link>
                         </li>
                         <li class="nav-item" onClick={ () => click("contact")}>
-                            <Link class="nav-link" href="/" aria-label="Contact">Contact</Link>
+                            <Link to="/contact" class="nav-link" href="/" aria-label="Contact">Contact</Link>
                         </li>
                         <li class="nav-item">
                             <Link to="/q-a" class="nav-link" href="/" aria-label="Q&A">Q&A</Link>
